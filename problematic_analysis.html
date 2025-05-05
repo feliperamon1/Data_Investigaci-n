@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problemática del Análisis de Datos en Organizaciones</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #f4f7fc; color: #333; }
+    .jumbotron { background: linear-gradient(90deg, #1f3c88 0%, #2952a3 100%); color: #fff; padding: 4rem 2rem; border-radius: .5rem; }
+    .section-title { margin-top: 2.5rem; margin-bottom: 1rem; color: #1f3c88; }
+    .contrib-box { background-color: #fff; padding: 1.5rem; border: 1px solid #dee2e6; border-radius: .5rem; margin-top: 2rem; }
+    .footer { padding: 2rem 0; text-align: center; color: #6c757d; }
+    a.btn-primary { background-color: #1f3c88; border-color: #1f3c88; }
+    a.btn-primary:hover { background-color: #16335a; border-color: #16335a; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="jumbotron text-center">
+    <h1 class="display-5">Problemática del Análisis de Datos en Organizaciones</h1>
+    <p class="lead">Retos y Diseños de Investigación para Organizaciones Data-Driven</p>
+  </header>
+
+  <div class="container">
+    <!-- Artículo Principal -->
+    <article>
+      <section>
+        <h2 class="section-title">1. Decisiones basadas en la intuición</h2>
+        <p>Muchas empresas siguen confiando en la experiencia o el “instinto” de sus líderes, relegando el uso de evidencia cuantitativa. Esta preferencia por la intuición puede acelerar respuestas a corto plazo, pero sacrifica la objetividad y la capacidad de detectar patrones sutiles en grandes volúmenes de datos.</p>
+        <blockquote class="blockquote">
+          <p class="mb-0">“Sin datos, solo eres otra persona con una opinión.”</p>
+          <footer class="blockquote-footer text-white">W. Edwards Deming</footer>
+        </blockquote>
+      </section>
+
+      <section>
+        <h2 class="section-title">2. Brecha de habilidades y competencias</h2>
+        <p>La analítica de datos requiere profesionales con conocimientos en estadística, programación y comprensión del negocio. Según Smith & Kumar (2023), la escasez de personal capacitado es una de las barreras más citadas en pymes, donde un solo analista suele cubrir múltiples roles, impidiendo la madurez de los proyectos de datos.</p>
+      </section>
+
+      <section>
+        <h2 class="section-title">3. Tecnología desconectada y datos siloes</h2>
+        <p>Muchas organizaciones poseen múltiples sistemas (ERP, CRM, producción) que no se comunican entre sí. El resultado son “datos siloes”: información fragmentada, inconsistente y difícil de integrar. Sin una arquitectura de datos unificada, cualquier análisis corre el riesgo de basarse en fuentes incompletas, afectando la validez de los hallazgos.</p>
+      </section>
+
+      <section>
+        <h2 class="section-title">4. Percepción de costo y complejidad</h2>
+        <p>La implementación de plataformas avanzadas de analítica se percibe como costosa y compleja. Directivos sin experiencia técnica temen una inversión sin retorno claro. Un estudio PLS-SEM reveló que la “percepción de complejidad” es un predictor negativo de adopción en pymes, por encima incluso de los costos reales.</p>
+      </section>
+
+      <section>
+        <h2 class="section-title">5. Propuestas de investigación</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead class="table-light">
+              <tr><th>Línea de investigación</th><th>Objetivo</th><th>Diseño sugerido</th><th>Instrumento</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Cultura data-driven</td><td>Medir impacto de formación directiva</td><td>Cuasi-experimental</td><td>Encuestas pre/post</td></tr>
+              <tr><td>Integración de sistemas</td><td>Evaluar eficacia de data-warehouse</td><td>Experimental de campo</td><td>Métricas de calidad de datos</td></tr>
+              <tr><td>Modelos de adopción</td><td>Comprender percepciones y miedos</td><td>Fenomenológico</td><td>Entrevistas semiestructuradas</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Referencias</h2>
+        <ul>
+          <li>Alajmi, A. M., & Alghamdi, F. A. (2024). Factors Affecting Big Data Analytics Adoption in SMEs in Saudi Arabia: PLS-SEM Approach. <em>Journal of Enterprise Information Management, 37</em>(2), 250–269.</li>
+          <li>Hernández‑Sampieri, R., & Mendoza Torres, C. P. (2018). <em>Metodología de la investigación. Las rutas cuantitativa, cualitativa y mixta</em>. McGraw-Hill Interamericana.</li>
+          <li>Smith, J., & Kumar, P. (2023). Drivers and barriers to data analytics adoption in SMEs: A qualitative study. <em>Technological Forecasting & Social Change, 190</em>, 122345.</li>
+        </ul>
+      </section>
+
+      <section class="contrib-box">
+        <h3>Deja tu aporte</h3>
+        <form action="#" method="post">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="mb-3">
+            <label for="comentario" class="form-label">Comentario</label>
+            <textarea class="form-control" id="comentario" name="comentario" rows="4" placeholder="Escribe tu aporte aquí..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar aporte</button>
+        </form>
+      </section>
+
+    </article>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Foro de Investigación. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
